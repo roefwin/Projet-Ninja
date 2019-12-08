@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta_stencil</item>
+        <item>@font/audiowide</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/londrina_outline</item>
+        <item>@font/megrim</item>
+        <item>@font/nova_round</item>
+        <item>@font/plaster</item>
+        <item>@font/syncopate</item>
+        <item>@font/syncopate_bold</item>
+    </array>
+</resources>

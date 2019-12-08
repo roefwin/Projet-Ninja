@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Fragment.Theo.TheoFragment">
+
+    <Button
+        android:id="@+id/btn_theo_ar_activation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_margin="16dp"
+        android:layout_above="@+id/tV_credit_theo"
+        android:textColor="#E30000"
+        android:textSize="30sp"
+        android:background="@drawable/btn_shape_theo_ar"
+        android:text="Launch AR"/>
+
+    <TextView
+        android:id="@+id/tV_credit_theo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:text="Credit : Tan Yap Hong and Eric Andres and Ishan Leung and Enzonzi and Thenzo"/>
+
+</RelativeLayout>

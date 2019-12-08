@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Clement.AddPlayerFragment">
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poulet" />
+
+    <Button
+        android:id="@+id/btn_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player_name"
+        android:text="OK">
+    </Button>
+
+    <ImageButton
+        android:id="@+id/poule1"
+        android:layout_width="108dp"
+        android:layout_height="141dp"
+        android:layout_below="@+id/btn_Ok"
+        android:src="@mipmap/poule"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/poule2"
+        android:layout_width="70dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/btn_Ok"
+        android:layout_toRightOf="@+id/poule1"
+        android:src="@mipmap/poule"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/poule3"
+        android:layout_width="104dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/btn_Ok"
+        android:layout_toRightOf="@+id/poule2"
+        android:src="@mipmap/poule"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/poule4"
+        android:layout_width="84dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/btn_Ok"
+        android:layout_toRightOf="@+id/poule3"
+        android:src="@mipmap/poule"></ImageButton>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poule1"
+        android:text="GO">
+    </Button>
+
+</RelativeLayout>

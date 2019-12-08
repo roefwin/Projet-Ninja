@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Parameter.CreditsFragments">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/giphy_stars"
+        android:scaleType="fitXY"/>
+
+    <com.example.sandboxretro.Fragment.Parameter.CreditsRollView
+        android:id="@+id/creditsroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/demotext"
+        android:textSize="30sp"
+        android:textColor="#ffffc92a"
+        app:angle="20"
+        app:endScrollMultiplier="4.5"
+        app:distanceFromText="400"
+        android:background="#00000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></View>
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:max="100000"
+            android:thumbTint="#7fffc92a"
+            android:progressDrawable="@drawable/seekbar_star_war_drawable"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+</RelativeLayout>

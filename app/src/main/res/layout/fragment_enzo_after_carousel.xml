@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Enzo.EnzoFragmentAfterCarousel"
+    android:background="#000000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:id="@+id/gif_menu"
+                android:src="@drawable/giphy_fezaf"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/tv_title_menu"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="Bienvenue dans le futur de l'application moblie"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:visibility="invisible"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_gravity="center_horizontal"
+                android:text="Button"
+                android:textColor="#FFA900"
+                android:textSize="30sp"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_shape_enzo_1"
+                android:shadowColor="#A88745"
+                android:shadowRadius="5"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
